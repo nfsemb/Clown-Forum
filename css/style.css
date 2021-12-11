@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: "inherit";
+	vertical-align: baseline;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+.container {
+    margin-left: auto;
+    margin-right:auto;
+    width: 55%;
+}
+
+
+.post{
+    background-image: linear-gradient(180deg, #f9f9f9, #E5E5E5);
+    box-shadow: 0.11em .11em .14em .12em #888888;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5em;
+    padding: 2% 3%;
+}
+
+.post-top img{
+    border-radius: 50%;
+    max-width: 4%;
+    height:auto;
+    float:left;
+    object-fit: cover;
+
+    border:2px solid #A09F9F;
+}
+
+.post-top h5{
+    color: #A09F9F;
+    float:right;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.post-top h3{
+    font-weight: 400;
+    font-style: bold;
+    font-size: 28px;
+}
+
+
+
+.comment{
+    color:#A09F9F;
+    text-decoration: none;
+    margin-right: 0.5em;
+}
+.comment:hover{
+    color:#2d78da;
+}
+.modify{
+    color:#c22e2e;
+    text-decoration: none;
+}
+.modify:hover{
+    background-color: #d44848;
+    border-radius: 0.3em;
+    color: white;
+}
+
+
+
+.topnav {
+  background-color: #BB485C;
+  overflow: hidden;
+  border-bottom-left-radius:0%;
+  border-bottom-right-radius:0%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.3em 0.3em;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+.header{
+   float:right;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f5b5d8;
+  color: #BB485C;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2f98c9;
+  color: white;
+}
+
+.topnav input[type=text] {
+    float: left;
+    padding-left: 0.5em;
+    border: none;
+    border-radius: 2em;
+    color:grey;
+    margin-top: 0.3em;
+    margin-left: 0.1em;
+    margin-bottom: 0.2em;
+    margin-left:3%;
+    font-size: 17px;
+  }
+.admin{
+    display: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(180deg, #E5E5E5, #F9F9F9);
+    padding:0.4em;
+    color: white;
+  }
+footer div{
+    margin-left: auto;
+    margin-right:auto;
+    width:55%;
+    display:flex;
+    justify-content: space-evenly;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+    
+}
+footer a:hover{
+    text-decoration: none;
+    color:#2f98c9;
+    
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+  table tr{
+    text-align: left;
+  }
